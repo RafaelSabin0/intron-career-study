@@ -23,7 +23,7 @@ export default function HomePage(){
         </div>
 
         <div className="home-image">
-            <img src={homeImage} alt="" srcset="" />
+            <img src={homeImage} alt="tiny boy marking tests"/>
         </div>
         </>
     );
