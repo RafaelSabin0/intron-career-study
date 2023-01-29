@@ -1,0 +1,50 @@
+{
+    "posts": [
+      {
+        "title": "JSON SERVER",
+        "author": "foo",
+        "id": 1
+      },
+      {
+        "title": "REACT",
+        "author": "facebook",
+        "id": 2
+      },
+      {
+        "title": "BOOTSTRAP",
+        "author": "css master",
+        "id": 3
+      },
+      {
+        "title": "MEDIUM",
+        "author": "medium",
+        "id": 4
+      }
+    ],
+    "candidates":[
+        {
+            "name":"Rafael",
+            "email":"rafaelsabino@gmail.com",
+            "phoneNumber":"51999998782",
+            "skillSet":"ReactJS"
+        },
+        {
+            "name":"Jonas",
+            "email":"jonassabino@gmail.com",
+            "phoneNumber":"51987223121",
+            "skillSet":"React Native"
+        },
+        {
+            "name":"Luis",
+            "email":"luisfernando@gmail.com",
+            "phoneNumber":"41900567544",
+            "skillSet":"WebDesign"
+        },
+        {
+            "name":"Vinicius",
+            "email":"viniciusvsoares@gmail.com",
+            "phoneNumber":"51976548766",
+            "skillSet":"Spring Boot"
+        }
+    ]
+  }

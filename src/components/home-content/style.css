@@ -1,0 +1,41 @@
+
+.home-text{
+    text-align: left;
+    font-size: 18px;
+}
+
+.home-text-box{
+    width: 32rem;
+    margin: 8rem;
+}
+
+
+.home-button{
+    color: #fff;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+    background: #000EE6;
+    border-radius: 36px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.button-content{
+    text-align: left;
+    margin-left: 1.3rem;
+}
+
+.login-icon{
+    height: auto;
+    width: 16px;
+    position: absolute;
+    margin: 4px;
+    display: inline-flex;
+}
+
+.home-image{
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: -30rem;
+}

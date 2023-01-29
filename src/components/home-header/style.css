@@ -1,0 +1,37 @@
+.main-title{
+    height: 62px;
+    width: 180px;
+    margin-top: -1rem;
+}
+
+.header-menu{
+    background: #E8E8E8;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+
+.nav-bar a {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    padding: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+    float: right;
+    margin-top: -1rem;
+  }
+
+
+  @media screen and (max-width: 500px) {
+    .header-menu {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .nav-bar  {
+      float: right;
+    }
+  }
