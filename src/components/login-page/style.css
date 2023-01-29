@@ -1,0 +1,30 @@
+
+.login-box{
+    margin: 10rem;
+}
+
+.intron-logo{
+    width: 180px;
+}
+
+.login-form{
+    margin-top: 7rem;
+}
+
+.password-input{
+    position: relative;
+    margin-top: 2rem;
+}
+
+.login-button{
+    background: #000EE6 !important;
+    width: 225px;
+    border: none;
+    color: #fff;
+}
+
+.loginCardImg{
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: -30rem;
+}
