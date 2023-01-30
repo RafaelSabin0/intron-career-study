@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './style.css';
 import AdminSidebar from '../admin-sidebar';
 import dashboardGirl from '../../svg/dashboardGirl.svg'
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
+import { getCandidates } from '../../apiHandler';
+
+
 
 const columns: GridColDef[] = [
     {field: 'id', headerName: 'ID', width: 70 },
@@ -12,17 +15,18 @@ const columns: GridColDef[] = [
     {field: 'skillSet', headerName: 'Skill Set', width: 300}
 ];
 
-const rows = [
-    {id: 1, name: 'Rafael', email: 'rafael@gmail.com', phoneNumber: '5198238232', skillSet: 'ReactJS' },
-    {id: 2, name: 'Luis', email: 'luis@gmail.com', phoneNumber: '5198238232', skillSet: 'Web Design' },
-    {id: 3, name: 'Jonas', email: 'jonas@gmail.com', phoneNumber: '5198238232', skillSet: 'React Native' },
-    {id: 4, name: 'Vinicius', email: 'vinicius@gmail.com', phoneNumber: '5198238232', skillSet: 'Spring Boot' },
-
-];
-
-
 
 export default function AdminDahsboard(){
+
+    const [candidates, setCandidates] = useState({});
+
+    useEffect(() => {
+        getCandidates().then(res => {
+            setCandidates(res.data)
+        })
+
+    }, [])
+
     return(
         <>
         <AdminSidebar/>
@@ -38,7 +42,7 @@ export default function AdminDahsboard(){
         <h1>Candidate Register List</h1>
         <div className="dashboard-table" style={{ height: 400, width: '100%' }}>
             <DataGrid
-            rows={rows}
+            rows={candidates}
             columns={columns}
             pageSize={5}
             rowsPerPageOptions={[5]}
