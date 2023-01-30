@@ -1,12 +1,14 @@
 import React from 'react';
 import './style.css';
 import loginIcon from '../../svg/login-icon.svg';
-import homeImage from '../../images/tiny-boy.png'
+import homeImage from '../../images/tiny-boy.png';
+import HomeHeader from '../home-header';
 
 
 export default function HomePage(){
     return(
         <>
+        <HomeHeader/>        
         <div className="home-text-box">
         <h1>Congratulations</h1>
         <div className="home-text">
