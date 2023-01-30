@@ -6,10 +6,10 @@ import { DataGrid, GridColDef } from '@mui/x-data-grid';
 
 const columns: GridColDef[] = [
     {field: 'id', headerName: 'ID', width: 70 },
-    {field: 'name', headerName: 'Name', width: 130},
-    {field: 'email', headerName: 'Email', width: 130},
-    {field: 'phoneNumber', headerName: 'Phone Number', width: 130},
-    {field: 'skillSet', headerName: 'Skill Set', width: 130}
+    {field: 'name', headerName: 'Name', width: 300},
+    {field: 'email', headerName: 'Email', width: 300},
+    {field: 'phoneNumber', headerName: 'Phone Number', width: 300},
+    {field: 'skillSet', headerName: 'Skill Set', width: 300}
 ];
 
 const rows = [
