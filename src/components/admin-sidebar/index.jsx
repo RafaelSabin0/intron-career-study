@@ -18,15 +18,3 @@ export default function AdminSidebar(){
         </>
     )
 }
-
-/*
-<div className="admin-sidebar">
-            <div className="profileInfo">
-            
-            <div className="profile-text">
-            <h4>Administradora</h4>
-            <p className='user-role'>Admin</p>
-            </div>
-            </div>
-        </div>
-        */

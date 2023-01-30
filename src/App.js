@@ -1,4 +1,3 @@
-import './App.css';
 import AdminDahsboard from './components/admin-dashboard';
 import HomePage from './components/home-content';
 import LoginPage from './components/login-page';
