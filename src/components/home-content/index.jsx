@@ -3,6 +3,7 @@ import './style.css';
 import loginIcon from '../../svg/login-icon.svg';
 import homeImage from '../../images/tiny-boy.png';
 import HomeHeader from '../home-header';
+import { Link } from 'react-router-dom';
 
 
 export default function HomePage(){
@@ -21,7 +22,7 @@ export default function HomePage(){
         as well as your ability to perform complex tasks and skills <br/>
         related to logical reasoning.</p>
         </div>
-        <button className="home-button"><div className="button-content">Candidate Login <img className='login-icon' src={loginIcon} alt="login Icon"  /></div></button>
+        <Link to="/login"><button className="home-button"><div className="button-content">Candidate Login <img className='login-icon' src={loginIcon} alt="login Icon"  /></div></button></Link>
         </div>
 
         <div className="home-image">

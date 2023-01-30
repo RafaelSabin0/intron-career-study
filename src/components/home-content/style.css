@@ -19,6 +19,7 @@
     border-radius: 36px;
     font-family: 'Open Sans';
     font-size: 15px;
+    cursor:pointer;
 }
 
 .button-content{

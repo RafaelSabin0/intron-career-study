@@ -21,7 +21,9 @@
     width: 225px;
     border: none;
     color: #fff;
+    cursor: pointer;
 }
+
 
 .loginCardImg{
     position: absolute;

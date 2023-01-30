@@ -3,12 +3,13 @@ import "./style.css";
 import intronLogo from '../../svg/intronLogo2.svg'
 import { Button, Checkbox, FormControlLabel, FormGroup, TextField } from '@mui/material';
 import laptopImg from '../../images/laptop-admin.png';
+import { Link } from 'react-router-dom';
 
 
 export default function LoginAdmin(){
     return(
         <div className="login-box">
-        <img className='intron-logo' src={intronLogo} alt="intron logo" />
+        <Link to="/"><img className='intron-logo' src={intronLogo} alt="intron logo" /></Link>
     
     <div className="login-form">
         <h1>Login to Admin</h1>
@@ -20,10 +21,10 @@ export default function LoginAdmin(){
         </div>
         <div className="confirmation-checkbox">
             <FormGroup>
-                <FormControlLabel control={<Checkbox defaultChecked="false"/>} label="Keep me looged in"/>
+                <FormControlLabel control={<Checkbox defaultChecked={false}/>} label="Keep me looged in"/>
             </FormGroup>
         </div>
-        <Button className="login-button" variant="contained">Login</Button>
+        <Link to="/dashboard"><Button className="login-button" variant="contained">Login</Button></Link>
     </div>
     <div className="loginCardImg">
         <img src={laptopImg} alt="Laptop with paper and management tools "/>
