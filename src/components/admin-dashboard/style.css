@@ -1,0 +1,22 @@
+.dashboard-top{
+    float:left;
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+.dashboard-description{
+    font-size: 2vh;
+}
+
+.dashboard-register-list{
+    float: left;
+    margin-left: 25rem;
+    width: 90rem;
+
+}
+
+.dashboard-table{
+    height: 400; 
+    width: '100%';
+   
+}
