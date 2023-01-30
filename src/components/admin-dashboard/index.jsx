@@ -37,7 +37,7 @@ export default function AdminDahsboard(){
             <p>As an admin, you can approve their request to take the test before<br/> proceeding to the next rounds. You can also view the results of their<br/> test from your admin dashboard</p>
             </div>
         </div>
-        <img src={dashboardGirl} alt=" of a woman in front of a checklist" />
+        <img src={dashboardGirl} alt="woman in front of a checklist" />
         <div className="dashboard-register-list">
         <h1>Candidate Register List</h1>
         <div className="dashboard-table" style={{ height: 400, width: '100%' }}>
