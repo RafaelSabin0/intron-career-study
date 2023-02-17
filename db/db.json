@@ -140,6 +140,13 @@
       "email": "ladymaria@gmail.com",
       "phoneNumber": "5109989989899",
       "skillSet": "Hunter"
+    },
+    {
+      "id": 18,
+      "name": "Aqua",
+      "email": "aqua@gmail.com",
+      "phoneNumber": "519839281",
+      "skillSet": "Keyblade Master"
     }
   ]
 }

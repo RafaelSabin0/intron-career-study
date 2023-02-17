@@ -1,4 +1,4 @@
-import AdminDahsboard from './components/admin-dashboard';
+import AdminDashboard from './components/admin-dashboard';
 import HomePage from './components/home-content';
 import LoginPage from './components/login-page';
 import LoginAdmin from './components/login-admin';
@@ -9,7 +9,7 @@ function App() {
     <Router>
         <Routes>
         <Route path="/" element={<HomePage/>}/>
-        <Route path="/dashboard" element={<AdminDahsboard/>}/>
+        <Route path="/dashboard" element={<AdminDashboard/>}/>
         <Route path="/login" element={<LoginPage/>}/>
         <Route path="/admin-login" element={<LoginAdmin/>}/>
         </Routes>

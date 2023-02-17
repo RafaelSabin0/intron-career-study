@@ -7,6 +7,7 @@ import { addCandidates, getCandidates } from '../../apiHandler';
 import { Box } from '@mui/system';
 import { Grid, Modal, TextField } from '@mui/material';
 import {Button} from '@mui/material';
+import {MdAddCircleOutline} from 'react-icons/md'
 
 
 const columns: GridColDef[] = [
@@ -24,7 +25,8 @@ const style = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     bgcolor: 'background.paper',
-    border: '2px solid #000',
+    border: 'none',
+    borderRadius: '25px',
     boxShadow: 24,
     textAlign:'center',
     width: 698,
@@ -35,7 +37,7 @@ const style = {
   };
 
 
-export default function AdminDahsboard(){
+export default function AdminDashboard(){
 
     const[open, setOpen] = React.useState(false);
     const [candidates, setCandidates] = useState({});
@@ -45,8 +47,6 @@ export default function AdminDahsboard(){
         setInputFields({...inputFields, [event.target.name]: event.target.value});
     }
 
-
-    
     const handleOpen = () =>{
         setOpen(true);
     }
@@ -55,11 +55,14 @@ export default function AdminDahsboard(){
         setOpen(false);
     }
 
-    const submitForm = (values) => {
-        addCandidates(values)
-        /*.then((response) => {
-            console.log(response.data)
-        });*/
+    //submit new data into the API and update the candidates list on screen
+    const handleSubmit = (values) => {  
+        addCandidates(values).then(() => {
+            getCandidates().then(res => {
+                setCandidates(res.data);
+                handleClose();
+            })
+        });
     }
 
 
@@ -85,7 +88,7 @@ export default function AdminDahsboard(){
         <div className="dashboard-options">
        
             
-            <Button onClick={handleOpen}>Open Modal</Button>
+            <Button className="open-modal-button" onClick={handleOpen}><MdAddCircleOutline className="add-icon"/> Add New Candidate</Button>
             <Modal
              open={open}
              onClose={handleClose}
@@ -108,7 +111,7 @@ export default function AdminDahsboard(){
                 <TextField className='modal-textfield' id="outlined-basic" name="skillSet" label="Skill Set" variant="outlined"  onChange={handleChange}/>
                 </Grid>
                 <Grid item xs={5}>
-                <Button id='modal-button' onClick={() => {submitForm(inputFields)}}>Close Modal</Button>
+                <Button id='modal-button' onClick={() => {handleSubmit(inputFields)}}>Submit</Button>
                 </Grid>
             </Grid>
             

@@ -16,9 +16,23 @@
 }
 
 .dashboard-table{
-    height: 400; 
+    height: 350px; 
     width: '100%';
-   
+}
+
+.dashboard-options{
+    margin-top: -1rem;
+}
+
+.open-modal-button{
+    color: #fff !important;
+    background-color: #000EE6 !important;
+}
+
+.add-icon{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
 }
 
 .input-grid{
@@ -37,6 +51,7 @@
 .input-grid #modal-button{
     margin-top: 5rem;
     margin-left: 5rem;
+    width: 16em;
     color: #fff;
     background-color: #000EE6;
 }
