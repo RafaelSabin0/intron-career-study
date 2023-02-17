@@ -20,3 +20,23 @@
     width: '100%';
    
 }
+
+.input-grid{
+    text-align: left;
+    position: relative;
+}
+
+.input-grid #modal-item{
+    margin-left: 5rem;
+}
+
+.input-grid .modal-textfield{
+    margin-top: 4rem;
+}
+
+.input-grid #modal-button{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color: #fff;
+    background-color: #000EE6;
+}

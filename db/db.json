@@ -1,117 +1,145 @@
 {
-    "posts": [
-      {
-        "title": "JSON SERVER",
-        "author": "foo",
-        "id": 1
-      },
-      {
-        "title": "REACT",
-        "author": "facebook",
-        "id": 2
-      },
-      {
-        "title": "BOOTSTRAP",
-        "author": "css master",
-        "id": 3
-      },
-      {
-        "title": "MEDIUM",
-        "author": "medium",
-        "id": 4
-      }
-    ],
-    "candidates":[
-        {
-            "id": 1,
-            "name":"Rafael",
-            "email":"rafaelsabino@gmail.com",
-            "phoneNumber":"51999998782",
-            "skillSet":"ReactJS"
-        },
-        {
-            "id":2,
-            "name":"Jonas",
-            "email":"jonassabino@gmail.com",
-            "phoneNumber":"51987223121",
-            "skillSet":"React Native"
-        },
-        {
-            "id":3,
-            "name":"Luis",
-            "email":"luisfernando@gmail.com",
-            "phoneNumber":"41900567544",
-            "skillSet":"Web Design"
-        },
-        {
-            "id":4,
-            "name":"Vinicius",
-            "email":"viniciusvsoares@gmail.com",
-            "phoneNumber":"51976548766",
-            "skillSet":"Spring Boot"
-        },
-        {
-          "id":5,
-          "name":"Alexandra",
-          "email":"alexandra@gmail.com",
-          "phoneNumber":"5197986577",
-          "skillSet":"Spring Boot"
-      },
-      {
-        "id":6,
-        "name":"Eduardo",
-        "email":"eduardo@gmail.com",
-        "phoneNumber":"5197092311",
-        "skillSet":"Fire Fighter"
-      },
-      {
-        "id":7,
-        "name":"Leonardo",
-        "email":"leonardo@gmail.com",
-        "phoneNumber":"5192945568",
-        "skillSet":"Java Web"
-      },
-      {
-        "id":8,
-        "name":"Tasso",
-        "email":"tasso@gmail.com",
-        "phoneNumber":"5190046733",
-        "skillSet":"Streamer"
-      },
-      {
-        "id":9,
-        "name":"Fernanda",
-        "email":"fernanda@gmail.com",
-        "phoneNumber":"5199872622",
-        "skillSet":"UX Design"
-      },
-      {
-        "id":10,
-        "name":"Eileen",
-        "email":"eileenthecrow@gmail.com",
-        "phoneNumber":"5199977766",
-        "skillSet":"Hunter"
-      },
-      {
-        "id":11,
-        "name":"Pike Trickfoot",
-        "email":"piketrickfoot@gmail.com",
-        "phoneNumber":"5190874566",
-        "skillSet":"Gnome Cleric"
-      },
-      {
-        "id":12,
-        "name":"Sherlock Holmes",
-        "email":"sherlockholmes@gmail.com",
-        "phoneNumber":"51910232004",
-        "skillSet":"Detective"
-      },
-      {
-        "id":13,
-        "name":"Ansem The Wise",
-        "email":"ansemthewise@gmail.com",
-        "phoneNumber":"51987445900",
-        "skillSet":"Cientist"
-      }      
-    ]
-  }
+  "posts": [
+    {
+      "title": "JSON SERVER",
+      "author": "foo",
+      "id": 1
+    },
+    {
+      "title": "REACT",
+      "author": "facebook",
+      "id": 2
+    },
+    {
+      "title": "BOOTSTRAP",
+      "author": "css master",
+      "id": 3
+    },
+    {
+      "title": "MEDIUM",
+      "author": "medium",
+      "id": 4
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Rafael",
+      "email": "rafaelsabino@gmail.com",
+      "phoneNumber": "51999998782",
+      "skillSet": "ReactJS"
+    },
+    {
+      "id": 2,
+      "name": "Jonas",
+      "email": "jonassabino@gmail.com",
+      "phoneNumber": "51987223121",
+      "skillSet": "React Native"
+    },
+    {
+      "id": 3,
+      "name": "Luis",
+      "email": "luisfernando@gmail.com",
+      "phoneNumber": "41900567544",
+      "skillSet": "Web Design"
+    },
+    {
+      "id": 4,
+      "name": "Vinicius",
+      "email": "viniciusvsoares@gmail.com",
+      "phoneNumber": "51976548766",
+      "skillSet": "Spring Boot"
+    },
+    {
+      "id": 5,
+      "name": "Alexandra",
+      "email": "alexandra@gmail.com",
+      "phoneNumber": "5197986577",
+      "skillSet": "Spring Boot"
+    },
+    {
+      "id": 6,
+      "name": "Eduardo",
+      "email": "eduardo@gmail.com",
+      "phoneNumber": "5197092311",
+      "skillSet": "Fire Fighter"
+    },
+    {
+      "id": 7,
+      "name": "Leonardo",
+      "email": "leonardo@gmail.com",
+      "phoneNumber": "5192945568",
+      "skillSet": "Java Web"
+    },
+    {
+      "id": 8,
+      "name": "Tasso",
+      "email": "tasso@gmail.com",
+      "phoneNumber": "5190046733",
+      "skillSet": "Streamer"
+    },
+    {
+      "id": 9,
+      "name": "Fernanda",
+      "email": "fernanda@gmail.com",
+      "phoneNumber": "5199872622",
+      "skillSet": "UX Design"
+    },
+    {
+      "id": 10,
+      "name": "Eileen",
+      "email": "eileenthecrow@gmail.com",
+      "phoneNumber": "5199977766",
+      "skillSet": "Hunter"
+    },
+    {
+      "id": 11,
+      "name": "Pike Trickfoot",
+      "email": "piketrickfoot@gmail.com",
+      "phoneNumber": "5190874566",
+      "skillSet": "Gnome Cleric"
+    },
+    {
+      "id": 12,
+      "name": "Sherlock Holmes",
+      "email": "sherlockholmes@gmail.com",
+      "phoneNumber": "51910232004",
+      "skillSet": "Detective"
+    },
+    {
+      "id": 13,
+      "name": "Ansem The Wise",
+      "email": "ansemthewise@gmail.com",
+      "phoneNumber": "51987445900",
+      "skillSet": "Cientist"
+    },
+    {
+      "id": 14,
+      "name": "Pirim",
+      "email": "pirim@gmail.com",
+      "phoneNumber": "5175566437",
+      "skillSet": "Tetris"
+    },
+    {
+      "name": "Shrek",
+      "phoneNumber": "519892900",
+      "skillSet": "Knight",
+      "email": "shrek@gmail.com",
+      "id": 15
+    },
+    {
+      "name": "Percy",
+      "phoneNumber": "51989283928",
+      "skillSet": "Gunslinger",
+      "email": "percy@gmail.com",
+      "id": 16
+    },
+    {
+      "id": 17,
+      "name": "Lady Maria",
+      "email": "ladymaria@gmail.com",
+      "phoneNumber": "5109989989899",
+      "skillSet": "Hunter"
+    }
+  ]
+}
